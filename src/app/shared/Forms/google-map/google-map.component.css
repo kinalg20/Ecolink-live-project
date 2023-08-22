@@ -1,0 +1,97 @@
+.contact-us-section {
+  display: grid;
+  grid-template-columns: 40% 58%;
+  grid-gap: 14px;
+}
+.contact-us-section .detail-section {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 10px;
+  padding: 20px;
+}
+.contact-us-section .detail-section .contact-heading p {
+  margin-bottom: 0;
+}
+.contact-us-section .detail-section .contact-heading .country-buttons .button-row .button-col {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.contact-us-section .detail-section .contact-heading .country-buttons .button-row .button-col button {
+  background: #55b15c;
+  color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 10px;
+  padding: 5px;
+  width: 100%;
+}
+.contact-us-section .detail-section .contact-heading .country-buttons .button-row .button-col button:hover {
+  background: whitesmoke;
+  color: black;
+}
+
+.sample-policy-section {
+  margin: 50px 0;
+}
+
+.contact-us-form {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 10px;
+  padding: 30px;
+}
+.contact-us-form .fa-close:hover {
+  cursor: pointer;
+}
+.contact-us-form .contact-form-heading {
+  text-align: center;
+}
+.contact-us-form .contact-form-heading h2 {
+  margin-bottom: 30px;
+}
+.contact-us-form form .row .alert-danger {
+  padding: 7px;
+  font-size: 13px;
+}
+.contact-us-form form .proceed .proceed-button button {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px auto;
+  color: white;
+  background: #55b15c;
+  padding: 5px 25px;
+}
+
+@media (max-width: 992px) {
+  .contact-us-section {
+    display: block;
+  }
+  .contact-us-section .detail-section {
+    margin-bottom: 30px;
+  }
+  .contact-us-section .contact-us-form .row .lname {
+    margin-top: 1rem !important;
+  }
+}
+@media (max-width: 426px) {
+  form .alert-success {
+    font-size: 13px;
+    padding: 7px;
+  }
+  form .alert-danger {
+    font-size: 13px;
+    padding: 7px;
+  }
+}
+@media (max-width: 376px) {
+  .contact-container {
+    padding: 0;
+  }
+}
+@media (max-width: 360px) {
+  .contact-us-form {
+    padding: 14px;
+  }
+}/*# sourceMappingURL=google-map.component.css.map */

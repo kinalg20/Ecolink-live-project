@@ -1,0 +1,86 @@
+.container .bulk-pricing-form .fa-close:hover {
+  cursor: pointer;
+}
+.container .bulk-pricing-form .head .banner {
+  margin-bottom: 30px;
+}
+.container .bulk-pricing-form .head .banner .title {
+  padding: 50px 0;
+}
+.container .bulk-pricing-form .head .banner .title h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.container .bulk-pricing-form .head .banner .title .heading {
+  margin: 40px 0;
+}
+.container .bulk-pricing-form .head .banner .title .sub-heading {
+  margin: 20px 0;
+}
+.container .bulk-pricing-form .form-head h3 {
+  margin: 25px 0;
+}
+.container .bulk-pricing-form .gfield .ginput_container .gfield_select {
+  border-color: #e1e1e1;
+  background-color: #fcfcfc;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.container .bulk-pricing-form .proceed {
+  text-align: left;
+}
+.container .bulk-pricing-form .proceed button {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px auto 0px auto;
+  color: white;
+  background: #55b15c;
+  padding: 5px 25px;
+}
+
+@media (max-width: 1200px) {
+  .container .bulk-pricing-form .head .banner .title {
+    padding: 20px 0;
+  }
+  .container .bulk-pricing-form .head .banner .title h2 {
+    font-size: 1.2rem !important;
+  }
+  .container .bulk-pricing-form .head .banner .title .heading {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 992px) {
+  .container .bulk-pricing-form .head .banner .title h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .container .bulk-pricing-form .proceed {
+    text-align: center;
+  }
+  .container .bulk-pricing-form .head .banner .title {
+    padding: 20px 0;
+  }
+  .container .bulk-pricing-form .head .banner .title h2 {
+    font-size: 1.2rem;
+  }
+  .container .bulk-pricing-form .head .banner .title .heading {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 350px) {
+  .bulk-pricing-container {
+    padding: 0;
+  }
+  .bulk-pricing-container .col-8 {
+    padding: 0;
+  }
+}/*# sourceMappingURL=bulk-pricing.component.css.map */

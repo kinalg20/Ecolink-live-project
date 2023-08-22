@@ -1,0 +1,62 @@
+.Edit-Profile-section {
+  padding: 20px 40px;
+}
+.Edit-Profile-section .edituserdetail {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.Edit-Profile-section .form-control {
+  margin: 12px 0;
+}
+.Edit-Profile-section .btn {
+  background: var(--primary);
+  border: var(--primary);
+  color: #fff;
+}
+.Edit-Profile-section .add-user {
+  text-align: "right";
+  margin-top: 20px;
+}
+.Edit-Profile-section .btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(77, 207, 77, 0.25);
+}
+.Edit-Profile-section .card {
+  padding: 20px;
+}
+form .row .alert-danger {
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.preview-wrapper {
+  display: flex;
+}
+.preview-wrapper .col-lg-3 {
+  display: contents;
+}
+
+.preview-wrapper .img-preview {
+  position: relative;
+}
+.preview-wrapper .img-preview img {
+  padding: 5px;
+}
+.preview-wrapper .img-preview i {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .Edit-Profile-section .row {
+    width: 100%;
+    margin: 0;
+  }
+  .Edit-Profile-section .add-user {
+    text-align: center;
+  }
+}/*# sourceMappingURL=edit-profile.component.css.map */

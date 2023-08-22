@@ -1,0 +1,1 @@
+{"version":3,"sources":["order-fail.component.scss","order-fail.component.css"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,aAAA;EACA,mBAAA;ACCJ;ADCQ;EACI,mBAAA;EACA,kDAAA;EACA,aAAA;EACA,kBAAA;EACA,gBAAA;EACA,YAAA;EACA,mBAAA;ACCZ;ADAY;EACI,cAAA;ACEhB;ADDgB;EACI,WAAA;ACGpB;ADDgB;EACI,cAAA;ACGpB;ADCgB;EACI,mBAAA;EACA,WAAA;EACA,yBAAA;ACCpB","file":"order-fail.component.css"}

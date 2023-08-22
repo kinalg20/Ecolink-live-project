@@ -1,0 +1,28 @@
+.order-fail {
+  padding: 70px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.order-fail .container .card {
+  border-radius: 10px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+}
+.order-fail .container .card .heading {
+  color: #686868;
+}
+.order-fail .container .card .heading .cancel-icon {
+  width: 50px;
+}
+.order-fail .container .card .heading h2 {
+  margin: 20px 0;
+}
+.order-fail .container .card .buttons .btn {
+  background: #4BB543;
+  color: #fff;
+  margin: 15px 5px 15px 5px;
+}/*# sourceMappingURL=order-fail.component.css.map */

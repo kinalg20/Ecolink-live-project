@@ -1,0 +1,118 @@
+.chemist-section .container .body-head {
+  color: #666666;
+}
+.chemist-section .container .body-head h1 {
+  text-transform: uppercase;
+}
+.chemist-section .container .chemist-heading {
+  margin: 20px 0;
+}
+
+.checkout-body {
+  margin-bottom: 40px;
+}
+.checkout-body .fa-close:hover {
+  cursor: pointer;
+}
+.checkout-body .billing-detail .card {
+  padding: 20px 30px;
+}
+.checkout-body .billing-detail .card h3 {
+  padding: 20px 0;
+}
+.checkout-body .billing-detail .card label {
+  font-weight: 400;
+}
+.checkout-body .billing-detail .card .row .alert {
+  padding: 7px;
+  font-size: 13px;
+}
+.checkout-body .billing-detail .card .checkbox {
+  display: flex;
+  align-items: center;
+}
+.checkout-body .billing-detail .card .checkbox label {
+  margin-left: 5px;
+}
+.checkout-body .billing-detail .card .gfield .ginput_container .gfield_select {
+  border-color: #e1e1e1;
+  background-color: #fcfcfc;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.checkout-body .billing-detail .card .gfield .ginput_container .gfield_select option {
+  font-size: 13px;
+  max-width: 100px !important;
+}
+.checkout-body .billing-detail .card button {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 20px auto;
+  color: white;
+  background: #55b15c;
+  padding: 5px 25px;
+}
+.checkout-body .your-order .card {
+  padding: 20px 30px;
+}
+.checkout-body .proceed-button {
+  text-align: left;
+}
+
+@media (max-width: 992px) {
+  .Fname .fname {
+    margin-bottom: 1rem;
+  }
+  .Email .email {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .checkout-body {
+    grid-template-columns: 100%;
+  }
+  .checkout-body .proceed-button {
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .card .alert-success {
+    font-size: 13px;
+    padding: 7px;
+  }
+  .card .alert-danger {
+    font-size: 13px;
+    padding: 7px;
+  }
+}
+@media (max-width: 500px) {
+  ::ng-deep .wp-image-3097 {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 200px !important;
+  }
+  ::ng-deep .wp-image-3098 {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .ask-form .container {
+    padding: 0;
+  }
+}
+@media (max-width: 350px) {
+  .checkout-body .billing-detail .card {
+    padding: 20px 12px;
+  }
+}/*# sourceMappingURL=ask-chemist.component.css.map */

@@ -1,0 +1,119 @@
+.ask-chemist {
+  margin: 30px 0;
+}
+.ask-chemist .container .both-part {
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+.ask-chemist .container .both-part .first-part {
+  height: 200px;
+}
+.ask-chemist .container .both-part .first-part img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ask-chemist .container .both-part .second-part {
+  padding: 10px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 40% auto;
+}
+.ask-chemist .container .both-part .second-part h3 {
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+.ask-chemist .container .both-part .second-part p {
+  margin: 0;
+  text-align: center;
+}
+.ask-chemist .container .both-part .second-part svg {
+  width: 25px;
+  justify-self: center;
+}
+
+.pricing-section {
+  margin: 30px 0;
+}
+.pricing-section .container .pricing {
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 1px solid #d7d1d1;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+.pricing-section .container .pricing .pricing-image {
+  height: 200px;
+}
+.pricing-section .container .pricing .pricing-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.pricing-section .container .pricing .pricing-text {
+  padding: 10px;
+  height: 200px;
+  display: grid;
+  grid-template-rows: 40% auto;
+}
+.pricing-section .container .pricing .pricing-text h3 {
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+.pricing-section .container .pricing .pricing-text p {
+  margin: 0;
+  text-align: center;
+}
+.pricing-section .container .pricing .pricing-text svg {
+  width: 25px;
+  justify-self: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 725px;
+  }
+  .ask-chemist .container .both-part {
+    grid-template-columns: 50% 50%;
+  }
+  .pricing-section .container .pricing {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 575px) {
+  .ask-chemist .container .both-part .second-part h3 {
+    font-size: 1.1rem;
+  }
+  .ask-chemist .container .both-part .second-part p {
+    font-size: 0.8rem;
+  }
+  .ask-chemist .container .both-part .second-part svg {
+    width: 20px;
+  }
+  .pricing-section .container .pricing .pricing-text h3 {
+    font-size: 1.1rem;
+  }
+  .pricing-section .container .pricing .pricing-text p {
+    font-size: 0.8rem;
+  }
+  .pricing-section .container .pricing .pricing-text svg {
+    width: 20px;
+  }
+}/*# sourceMappingURL=call-to-action.component.css.map */

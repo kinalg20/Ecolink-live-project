@@ -1,0 +1,85 @@
+.page-not-found {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.page-not-found .container .row {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.page-not-found .container .row .image {
+  width: 550px;
+  align-self: center;
+  align-items: center;
+  margin: auto;
+}
+.page-not-found .container .row .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 60px;
+}
+.page-not-found .container .row .desc p {
+  font-size: 1rem;
+  color: #747474;
+  font-weight: 600;
+  text-align: center;
+}
+.page-not-found .container .row .desc .shop {
+  background: #55b15c;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.page-not-found .container .row .desc .head {
+  font-size: 40px;
+  -webkit-animation-name: head;
+          animation-name: head;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+}
+@-webkit-keyframes head {
+  from {
+    color: rgb(124, 124, 124);
+  }
+  to {
+    color: rgb(0, 0, 0);
+  }
+}
+@keyframes head {
+  from {
+    color: rgb(124, 124, 124);
+  }
+  to {
+    color: rgb(0, 0, 0);
+  }
+}
+
+@media (max-width: 1200px) {
+  .page-not-found .container .row .image {
+    width: 450px;
+  }
+}
+@media (max-width: 992px) {
+  .page-not-found .container .row .image {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .page-not-found .container .row .image {
+    width: 300px;
+  }
+}
+@media (max-width: 425px) {
+  .page-not-found .container .row .image {
+    width: 250px;
+  }
+  .page-not-found .container .row .desc h1 {
+    font-size: 1.4rem;
+  }
+  .page-not-found .container .row .desc h2 {
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=page-not-found.component.css.map */

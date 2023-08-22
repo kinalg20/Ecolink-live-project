@@ -1,0 +1,171 @@
+.product-detail-section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 30% 65%;
+  background: whitesmoke;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  grid-gap: 5%;
+  border-radius: 5px;
+}
+.product-detail-section .product-image {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+}
+.product-detail-section .product-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+.product-detail-section .product-detail .product-name h3 {
+  margin: 0;
+  font-size: 33px;
+}
+.product-detail-section .product-detail .product-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.product-detail-section .product-detail .product-rate h3 {
+  font-size: 35px;
+}
+.product-detail-section .product-detail .product-rate p.sale_price {
+  font-size: 25px;
+  -webkit-text-decoration: gray line-through;
+          text-decoration: gray line-through;
+  text-decoration-thickness: 2px;
+}
+.product-detail-section .product-detail .product-rate p {
+  font-size: 20px;
+}
+.product-detail-section .product-detail .product-desc p {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.product-detail-section .product-detail .product-info ul {
+  padding-left: 1rem;
+}
+.product-detail-section .product-detail .add-to-cart {
+  display: flex;
+  align-items: center;
+}
+.product-detail-section .product-detail .add-to-cart .counter button {
+  background: none;
+  border: 2px solid #dedede;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  text-align: center;
+}
+.product-detail-section .product-detail .add-to-cart .counter input {
+  border: 1px solid #dedede;
+  height: 38px;
+  width: 45px;
+  border-radius: 5px;
+  margin: 0 5px;
+  text-align: center;
+}
+.product-detail-section .product-detail .add-to-cart .addtocartbutton {
+  margin-left: 20px;
+}
+.product-detail-section .product-detail .add-to-cart .addtocartbutton .p-button-success {
+  background: var(--primary);
+}
+.product-detail-section .product-detail .wishlist:hover {
+  background: #dedede;
+  padding: 6px 10px;
+  cursor: pointer;
+  background: var(--primary);
+  color: #fff;
+}
+.product-detail-section .product-detail .wishlist {
+  background: #dedede;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.product-cards .card {
+  width: 100%;
+  margin: 11px 0;
+  border: 1px solid rgb(179, 177, 177);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+.product-cards .card .card-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.product-cards .card .card-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  padding: 8px 8px;
+}
+.product-cards .card .card-body {
+  padding: 0.8rem;
+}
+.product-cards .card .card-body .card-title h6 {
+  margin: 0;
+  padding: 0;
+}
+.product-cards .card .card-body .card-title p {
+  font-size: 14px;
+}
+.product-cards .card .card-body .card-price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.product-cards .card .card-body .card-price-section .card-price {
+  font-weight: 700;
+  font-size: 20px;
+}
+.product-cards .card .card-body .card-price-section .rating {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-cards .card .card-body .list-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.product-cards .card .card-body .list-buttons p {
+  border: 1px solid rgb(179, 177, 177);
+  padding: 6px 6px;
+  border-radius: 5px;
+  width: 45%;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+.product-cards .card .card-body .list-buttons p:hover {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.08);
+  background-color: var(--primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+.recommendation-product h3 {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #ffffff;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+}/*# sourceMappingURL=productdetail.component.css.map */
